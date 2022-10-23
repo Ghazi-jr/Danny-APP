@@ -1,0 +1,104 @@
+* {
+  background-color: #27323D;
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy-Regular;
+}
+
+QTableView#dataTable {
+  margin : 81px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding : 20px;
+  color: #001219;
+  background-color: white;
+  selection-background-color: #0BA6E8;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  border-radius : 20px;
+  text-align: left;
+}
+QTableView#searchedTable {
+  margin : 21px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding : 20px;
+  color: #001219;
+  background-color: white;
+  selection-background-color: #0BA6E8;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  border-radius : 5px;
+  text-align: left;
+}
+QHeaderView::section {
+  margin-bottom: 14px;
+  font-size: 20px; 
+  font-family: Gilroy-Regular;
+  color : #1EA54C;
+  }
+
+QScrollBar:horizontal {              
+  border: none;
+  background: #F0F0F0;
+  height: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+  QScrollBar {
+  background : Azure;
+  width : 10px;
+}
+QScrollBar::handle {
+  background : #1EA54C;
+}
+QScrollBar::handle::pressed {
+  background : #1EA54C;
+}
+QStatusBar {
+  color : white;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Gilroy-Light;
+  
+}
+QPushButton{
+    background-color: white;
+    border-radius : 10px;
+    font-size: 20px; 
+    padding : 10px;
+    font-size : 20px;
+    font-family : Gilroy-ExtraBold;
+    color : #1EA54C;
+  }
+  QPushButton:checked {
+    border : 5px solid #1EA54C;
+    border-style: inset;
+}
+
+QLabel#head_title {
+  color: #1EA54C;
+  font-family: Gilroy-ExtraBold;
+  font-size: 40px;
+}
+QLabel#box {
+  border-radius : 10px;
+  margin-top : 20px;
+  border : 2px solid white;
+}
+QLineEdit#key_bar {
+  background-color: #27323D;
+  color  : white;
+  border-radius : 20px;
+  border : 1px solid #1EA54C;
+  padding : 14px;
+  font-size : 18px;
+  font-family: Gilroy-Bold;
+}
+QStatusBar {
+  color : white;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Gilroy-Light;
+}
+
